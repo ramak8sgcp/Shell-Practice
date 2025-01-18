@@ -1,4 +1,4 @@
 #!/bin/bash
 
 USERID=$(id -u)
-echo "User ID is: $USRID"
+echo "User ID is: $USERID"
