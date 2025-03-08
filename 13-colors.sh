@@ -25,7 +25,7 @@ VALIDATE(){
 
 CHECK_ROOT
 
-dnf installed list git 
+dnf list installed git 
 
 if [ $? -ne 0 ]
 then 
@@ -36,7 +36,7 @@ else
     echo "Git is installed already, nothing to do.."
 fi
 
-dnf installed list mysql
+dnf list installed mysql
 
 if [ $? -ne 0 ]
 then
